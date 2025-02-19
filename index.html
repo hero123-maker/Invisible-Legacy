@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>보안코드 입력</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="image.png" alt="보안 이미지" id="securityImage"> <!-- 이미지 추가 -->
+    <h1>보안코드 입력</h1>
+    <p>네 자리 숫자를 입력하세요. 숫자는 중복되지 않습니다.</p>
+    <div id="attemptsLeft">남은 시도 횟수: 10</div>
+    <input type="text" id="userGuess" placeholder="예: 1234">
+    <button id="submitGuessButton">제출</button>
+    <div id="results"></div>
+    <div id="welcomeMessage" style="display: none;"></div>
+    <script src="game.js"></script>
+</body>
+</html>
