@@ -35,20 +35,20 @@ input, button {
 }
 
 .correct {
-    color: green; /* 정확한 자리 */
+    color: green;  /* 정확한 자리: O */
 }
 
 .wrong-place {
-    color: orange; /* 잘못된 자리 */
+    color: orange; /* 잘못된 자리: △ */
 }
 
 .wrong-number {
-    color: red; /* 틀린 숫자 */
+    color: red;    /* 틀린 숫자: X */
 }
 
 #welcomeMessage {
-    font-size: 2em; /* 폰트 크기를 2배로 설정 */
-    color: green; /* 폰트 색상을 지정 */
+    font-size: 2em;
+    color: green;
     text-align: center;
     margin-top: 20px;
 }
