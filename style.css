@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    background-color: black; /* 배경색을 검은색으로 설정 */
+    color: white; /* 모든 글자의 기본 색상을 흰색으로 설정 */
+}
+
+input, button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 5px;
+    color: black; /* 입력란과 버튼의 글자 색상을 검은색으로 설정 */
+    background-color: white; /* 입력란과 버튼의 배경색을 흰색으로 설정 */
+}
+
+/* ✅ ✨ 여기 추가: 입력창과 버튼이 비활성화될 때의 스타일 */
+input:disabled, button:disabled {
+    background-color: grey;   /* 회색 배경으로 변경 */
+    color: white;             /* 글자색을 흰색으로 설정 */
+    cursor: not-allowed;      /* 마우스 커서를 '금지' 아이콘으로 변경 */
+    opacity: 0.6;             /* 흐리게 표시하여 비활성화 상태를 강조 */
+}
+
+#results div {
+    margin-top: 10px;
+}
+
+.correct {
+    color: green;  /* 정확한 자리: O */
+}
+
+.wrong-place {
+    color: orange; /* 잘못된 자리: △ */
+}
+
+.wrong-number {
+    color: red;    /* 틀린 숫자: X */
+}
+
+#welcomeMessage {
+    font-size: 2em;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
